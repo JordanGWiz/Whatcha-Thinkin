@@ -48,13 +48,24 @@ header nav {
 input[type="text"],
 textarea {
   width: 100%;
-  padding: 12px 20px;
+  padding: 12px 65px;
   margin: 8px 0;
   box-sizing: border-box;
   display: flex;
   word-break: break-word;
+  border: solid gray;
+  box-shadow: 5px 5px 10px rgb(59, 65, 66);
 }
 
+button {
+  background-color: #227187;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 /* Split the screen in half */
 .split {
   height: 100%;

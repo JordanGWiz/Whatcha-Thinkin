@@ -20,24 +20,28 @@
     <div class="split left">
       <section class="centered">
         <h2>Write what's on your mind!</h2>
-        <img src="./assets/image/sapiens.png" />
+        <img
+          src="./assets/image/sapiens.png"
+          alt="Someone on the phone sharing thoughts"
+        />
       </section>
     </div>
 
     <div class="split right">
       <section class="centered-right">
-        <form>
-          <label for="user">Username:</label><br />
-          <input type="text" id="user" name="user" /><br />
-          <label for="title">Title:</label><br />
-          <input type="text" id="title" name="title" />
-          <label for="text">Content:</label><br />
+        <form id="post-form">
+          <label>Username:</label><br />
+          <input type="text" id="username" /><br />
+          <label>Title:</label><br />
+          <input type="text" id="title" />
+          <label>Content:</label><br />
           <textarea id="textarea" placeholder="How was your day?"></textarea>
           <br />
-          <input type="submit" value="Submit" />
+          <button type="submit" id="submit">Submit</button>
         </form>
       </section>
     </div>
+    <script src="./assets/js/form.js"></script>
     <script src="./assets/js/logic.js"></script>
   </body>
 </html>
