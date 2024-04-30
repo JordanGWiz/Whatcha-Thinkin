@@ -1,3 +1,4 @@
+/* CSS Variables for color scheme management */
 :root {
   --light-blue: #8ecccc;
   --grey-blue: #50717b;
@@ -5,17 +6,18 @@
   --black: #212121;
 }
 
+/*Default styles for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Body styles for light theme */
 body {
   background-color: var(--light-blue);
   color: white;
 }
-
+/* Body styles for dark theme */
 body.dark-mode {
   background-color: var(--dark-grey);
   color: white;
@@ -45,6 +47,7 @@ header nav {
   width: 80%;
 }
 
+/* Styles for text inputs and textareas */
 input[type="text"],
 textarea {
   width: 100%;

@@ -26,6 +26,7 @@ body.dark-mode header {
   color: white;
 }
 
+/* Dark mode styles for the footer */
 .dark-mode .creator-main {
   background-color: var(--black);
 }
@@ -53,6 +54,7 @@ header h4 {
   margin-right: auto;
 }
 
+/* General button styles */
 button {
   background-color: #227187;
   color: white;
@@ -63,11 +65,12 @@ button {
   font-size: 16px;
   margin-right: 20px;
 }
-
+/* Button styles in dark mode */
 .dark-mode button {
   background-color: var(--dark-grey);
 }
 
+/* Footer styles */
 .creator-main {
   height: auto;
   padding: 2px;
