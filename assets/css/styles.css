@@ -66,6 +66,11 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+
+.dark-mode button {
+  background-color: var(--black);
+}
+
 /* Split the screen in half */
 .split {
   height: 100%;
